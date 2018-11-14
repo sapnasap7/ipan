@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+<head>
+	<title>Other Tips</title>
+	<meta name="description" content="website description" />
+    <meta name="keywords" content="website keywords, website keywords" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="styleT.css" type="text/css" /> 
+	<link rel="shortcut icon" href="logo.jpg">
+	<script src="jquery.js" type="text/javascript"></script>
+
+<script>
+	$(document).ready(function(){
+		$('li.a').filter(':nth-child(n+4)').addClass('hide');
+		
+		$('ul').on('click','li.q',function(){
+			$(this)
+				.next()
+					.slideDown(200)
+					.siblings('li.a')
+						.slideUp(200);
+						
+		});
+	});
+</script>
+<style>
+.dropbtn {
+    color: white;
+    margin-top: -10px;
+    padding: 15px;
+    font-size: 13px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    margin-left: 20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3a442a;}
+</style>
+</head>
+<body>
+<div>
+ <div class="blackBar">
+          <a href="register.html">Sign Up</a>
+          <a href="login.html">Login</a>
+        </div>
+		
+<div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour"></span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+            <div class="dropdown">
+			<li class="selected"><a href="homepage.html">About Us</a></li>
+            </div>
+            
+            <!-- HEALTH RESOURCE DROPDOWN -->
+            <div class="dropdown">
+                <li><button class="dropbtn">Resources</button></li>
+              <div class="dropdown-content">
+                <a href="DietaryGuidelines.html">Australian Dietary Guidelines</a>
+                <a href="ServingSizes.html">Serving Sizes</a>
+                <a href="HealthBenefitsOfFruitAndVeggies.html">Health Benefits of fruit and vegetable</a>
+                <a href="CookingMethods.html">Cooking Methods</a>
+                <a href="LabelReading.html">Label Reading</a>
+              </div>
+            </div>
+            
+            <!-- FAQ & TIPS DROPDOWN -->
+            <div class="dropdown">
+            <li><button class="dropbtn">FAQ & Tips</button></li>
+              <div class="dropdown-content">
+                <a href="faq.html">FAQ</a>
+                <a href="HealthyEatingOnABudget.html">Healthy Eating on a Budget</a>
+                <a href="TimeSavingTips.html">Time Saving Tips</a>
+                <a href="OtherTips.html">Other Tips</a> 
+              </div>
+            </div>
+            
+            <!-- Seasonality -->
+             <div class="dropdown">
+            <li><button class="dropbtn">Seasonality</button></li>
+              <div class="dropdown-content">
+                <a href="Summer.html">Summer Fruits and Vegetables</a>
+                <a href="Autumn.html">Autumn Fruits and Vegetables</a>
+                <a href="Winter.html">Winter Fruits and Vegetables</a>
+                <a href="Spring.html">Spring Fruits and Vegetables</a> 
+              </div>
+            </div>
+            
+             <!-- Four Way Meals -->
+             <div class="dropdown">
+            <li><button class="dropbtn"> Four Way Meals</button></li>
+              <div class="dropdown-content">
+                <a href="Zucchini.html">Zucchini</a>
+                <a href="OnionsAndGarlic.html">Onions and Garlic</a>
+                <a href="SweetPotato.html">Sweet Potato</a>
+                <a href="Avocados.html">Avocados</a> 
+                <a href="Broccoli.html">Broccoli</a>
+                <a href="Eggplant.html">Eggplant</a>
+                <a href="Cauliflower.html">Cauliflower</a>
+              </div>
+            </div>
+            
+            
+            
+    
+        </ul>
+      </div>
+    </div>	
+
+		<br><br>
+	<ul>
+		<li class="q"><b>TIPS OF NEWS LETTER 1</b></li>
+		<li class="a">
+		<ul>
+		<li><b>1</b>- Plan meals ahead of time (plan a menu AND shop to
+			have ingredients on hand).</li>
+		<li><b>2</b>- Simple recipes with few ingredients:<br><br>
+a- Try simple pastas, stir-fries or one-pot dishes
+(check out the recipes attached – they’re quick
+and simple)!<br>
+b- You can try more complicated recipes when you
+have more time and as you gain confidence.
+
+</li>
+<li><b>3</b>- Add plenty of fresh fruit and vegetables:<br><br>
+a- Add fruit to breakfast cereal.<br>
+b- Have tinned baked beans (low-salt/no added salt
+varieties) on toast.<br>
+c- Wash and roughly cut up carrots, celery and snow
+peas so they are ready to eat when you are in a
+hurry. Most fruit just needs to be washed!
+ </li>
+ 
+		</ul>
+		</li>
+		<li class="q"><b>TIPS OF NEWS LETTER 2</b></li>
+		<li class="a">
+		<ul>
+		<li><b>1</b>- Spend at least half of your food budget on ‘Eat Most’ foods
+such as fruit, vegetables and legumes, bread and plain cereal
+foods (pasta, rice, high fibre/low sugar cereals).
+ </li>
+ <li><b>2</b>- Spend 30% on ‘Eat Moderately’ foods such as lean meat,
+chicken without skin, fish, eggs, nuts, milk, yoghurt, and cheese.
+</li>
+<li><b>3</b>- Spend less than 10% on ‘Eat Least’ foods that do not
+provide many nutrients. These foods are often high in
+fat, salt and/or sugar and include oils, butter/margarine,
+condiments, chocolate, chips, sweet biscuits, cordials,
+soft drinks, coffee, tea and alcohol.
+</li>
+<li><b>4</b>- Choose reduced fat products such as those labelled “25% Reduced Fat”. Make sure freezer and fridge items are not past their use-by date.</li>
+		</ul>
+		</li>
+		<li class="q"><b>TIPS OF NEWS LETTER 3</b></li>
+		<li class="a">5 ways to shop smart:
+		<br>
+		<ul>
+		<li><b>1</b>- Write a shopping list. Use the menu planner we provided in Newsletter 2 to help you plan meals
+and write your list before going shopping. Make sure you include a good variety and amount of
+fruit and vegetables in your meals. Remember to try all colours of the rainbow!
+</li>
+		<li><b>2</b>- Choose fruit and vegetables in season. These are in good supply, cheaper and taste better. Use
+the ‘Fruit and Vegetable Seasonality, Selection and Storage’ guide we’ve provided with this newsletter to help you.
+</li>
+		<li><b>3</b>- Tinned fruit and vegetables. Compare prices; choose tinned or frozen products sometimes if
+these are cheaper than fresh. Remember to look for fruit in natural juice and for tinned low-salt
+varieties of vegetables and legumes.
+</li>
+		<li><b>4</b>- Check your shopping docket. Check it regularly to see how you spend your food dollars.</li>
+		<li><b>5</b>- Don’t shop when hungry. You will be more likely to impulse buy foods not on your shopping list.</li>
+		</ul>
+		</li>
+		<li class="q"><b>TIPS OF NEWS LETTER 4</b></li>
+		<li class="a">Here are some quick and simple ideas using basic
+food items:<br>
+<ul>
+<li><b>Pasta and Rice:</b><br>1- Combine cooked pasta with a pasta sauce – choose
+a low-salt variety and add lots of vegetables.
+<br>2- Add pasta into casseroles.
+<br>3- Make fried rice using frozen vegetables.
+</li>
+<li><b>Creamed corn or baked beans:</b><br>1- Use as a filler for toasted sandwiches or have on toast. </li>
+<li><b>Kidney beans, lentils, chickpeas:</b><br>1- Add these to any Bolognese sauce.<br>2- Combine these with salt-reduced tinned soup and
+meat (optional) to make a casserole.
+<br>3- Add tinned (and rinsed) chickpeas to salads.</li>
+<li><b>Frozen vegetables:</b><br>1- Add frozen peas and corn to savoury mince; add
+green beans and baby corn to stir-fries.
+<br>2- Add to soups, curries or scrambled eggs – increases
+the amount made and is a money- and time-saver!
+</li>
+<li><b>Tinned or frozen fruit:</b><br>1- Serve with low-fat yoghurt and nuts.<br>2- Use with low-joule jelly.</li>
+</ul>
+
+ </li>
+		<li class="q"><b>TIPS OF NEWS LETTER 5</b></li>
+		<li class="a">
+		<ul>
+		<li><b>1</b>- Know how much you have to spend on food. Work
+out how much of your household budget you can
+allocate to food. Keep a list on the fridge of foods that
+you need to replace. You can use the shopping list we
+provided with Newsletter 2.
+</li>
+		<li><b>2</b>- Avoid foods packaged in individual servings.
+You pay more for the extra packaging. Pre-packaged
+foods also tend to be more expensive than the homemade
+alternative.
+</li>
+		<li><b>3</b>- Be aware of prices.
+A higher price doesn’t always mean higher quality. Larger containers are not always cheaper if you don’t use all of the contents and have to throw them out. Also remember to check the unit price on the shelf to compare products. Have a look at the labels to the right. These are from
+different sized packages of the same product.
+</li>
+		
+		</ul>
+		</li>
+		<li class="q"><b>TIPS OF NEWS LETTER 6</b></li>
+		<li class="a">Eating a variety of fruit and vegetables from all colours of the rainbow is important for health. We have a few ideas of fruit and vegetables that you may not have tried:
+		<ul>
+		<br><li><b>VEGETABLES:</b><br>
+		<br>1-Chinese Cabbage<br>
+• Slightly sweeter than ordinary cabbage.<br>
+• Use in stir-fries, salads and coleslaws.<br>
+
+		<br>2-Sweet potato<br>
+• Varieties: gold and white sweet potato.<br>
+• Use in soups, curries, stir-fries and in baking.<br>
+
+		<br>3-Radish<br>
+• Red skin, white flesh and a peppery flavour.<br>
+• A great addition to spice up green salads.<br>
+
+		<br>4-Silverbeet<br>
+• Use in stir-fries, salads, pies,
+quiches, pasta and rice dishes.<br>
+• When stir-frying – add to ingredients at the end of
+cooking (cook until just wilted).<br>
+
+		</li>
+		<br><li><b>FRUITS:</b><br>
+		<br>1-Carambola (star fruit)<br>
+• Clean, crisp texture.<br>
+• Beautiful and tasty garnish.<br>
+• Use sliced in fruit salad or platters.<br>
+
+		<br>2-Grapefruit<br>
+• A traditional breakfast fruit in certain cultures.<br>
+• Segments can be added to meat glazes, fruit salads
+and marmalades.<br>
+
+		<br>3-Papaya (also known as papaw or paw paw)<br>
+• Golden yellow or orange red flesh and
+inedible black seeds.<br>
+• Eat fresh, in fruit salads or make into chutney
+and relishes.<br>
+
+		<br>4-Feijoa<br>
+• A tropical fruit with a creamy
+white and strong tasting flesh<br>
+(flavour has hints of quince, pineapple and mint).
+• Eat fresh or use in jams.<br>
+
+		<br>5-Guava<br>
+• Tropical fruit which is yellow/green when ripe with
+white, juicy flesh (and quite fragrant).<br>
+• Eat fresh, in salads or make into jams, jellies and
+conserves.<br>
+
+		<br>6-Pomegranate<br>
+• Cut fruit in half and scoop the kernels out.<br>
+
+		<br>7-Mushrooms • Eat fresh or add kernels to salads.<br>
+• A great source of protein for vegetarians.<br>
+
+		
+		</ul>
+		</li>
+		<li class="q"><b>TIPS OF NEWS LETTER 7</b></li>
+		<li class="a">Ideas for vegetable dishes from other regions:
+		<br><ul><br>
+		<li><b>Mediterranean</b><br>• Cucumber yoghurt dip with vegetables.<br></li>
+		<li><b>Middle Eastern</b><br>• Pita bread with baba ghanoush (eggplant dip).<br></li>
+		<li><b>Mexican</b><br>• Baked pita ‘chips’ with salsa and homemade avocado dip.
+<br>• Black beans and rice.<br>
+</li>
+		<li><b>Italian</b><br>• Bruschetta with tomatoes, olives and fresh basil.
+<br>• Pasta with tomato sauce (packed with lots of vegies).
+<br>• Vegetarian pizza with ricotta, low-fat mozzarella and pita bread base.
+</li>
+		</ul>
+ </li>
+
+</li>
+	</ul>
+</div>
+</body>
+</html>

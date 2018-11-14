@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+	<title>FAQ</title>
+	<meta name="description" content="website description" />
+    <meta name="keywords" content="website keywords, website keywords" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="styleT.css" type="text/css" /> 
+	<link rel="shortcut icon" href="logo.jpg">
+	<script src="jquery.js" type="text/javascript"></script>
+
+<script>
+	$(document).ready(function(){
+		$('li.a').filter(':nth-child(n+4)').addClass('hide');
+		
+		$('ul').on('click','li.q',function(){
+			$(this)
+				.next()
+					.slideDown(200)
+					.siblings('li.a')
+						.slideUp(200);
+						
+		});
+	});
+</script>
+<style>
+.dropbtn {
+    color: white;
+    margin-top: -10px;
+    padding: 15px;
+    font-size: 13px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    margin-left: 20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3a442a;}
+</style>
+</head>
+<body>
+<div>
+ <div class="blackBar">
+          <a href="register.html">Sign Up</a>
+          <a href="login.html">Login</a>
+        </div>
+		
+<div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour"></span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+            <div class="dropdown">
+			<li class="selected"><a href="homepage.html">About Us</a></li>
+            </div>
+            
+            <!-- HEALTH RESOURCE DROPDOWN -->
+            <div class="dropdown">
+                <li><button class="dropbtn">Resources</button></li>
+              <div class="dropdown-content">
+                <a href="DietaryGuidelines.html">Australian Dietary Guidelines</a>
+                <a href="ServingSizes.html">Serving Sizes</a>
+                <a href="HealthBenefitsOfFruitAndVeggies.html">Health Benefits of fruit and vegetable</a>
+                <a href="CookingMethods.html">Cooking Methods</a>
+                <a href="LabelReading.html">Label Reading</a>
+              </div>
+            </div>
+            
+            <!-- FAQ & TIPS DROPDOWN -->
+            <div class="dropdown">
+            <li><button class="dropbtn">FAQ & Tips</button></li>
+              <div class="dropdown-content">
+                <a href="faq.html">FAQ</a>
+                <a href="HealthyEatingOnABudget.html">Healthy Eating on a Budget</a>
+                <a href="TimeSavingTips.html">Time Saving Tips</a>
+                <a href="OtherTips.html">Other Tips</a> 
+              </div>
+            </div>
+            
+            <!-- Seasonality -->
+             <div class="dropdown">
+            <li><button class="dropbtn">Seasonality</button></li>
+              <div class="dropdown-content">
+                <a href="Summer.html">Summer Fruits and Vegetables</a>
+                <a href="Autumn.html">Autumn Fruits and Vegetables</a>
+                <a href="Winter.html">Winter Fruits and Vegetables</a>
+                <a href="Spring.html">Spring Fruits and Vegetables</a> 
+              </div>
+            </div>
+            
+             <!-- Four Way Meals -->
+             <div class="dropdown">
+            <li><button class="dropbtn"> Four Way Meals</button></li>
+              <div class="dropdown-content">
+                <a href="Zucchini.html">Zucchini</a>
+                <a href="OnionsAndGarlic.html">Onions and Garlic</a>
+                <a href="SweetPotato.html">Sweet Potato</a>
+                <a href="Avocados.html">Avocados</a> 
+                <a href="Broccoli.html">Broccoli</a>
+                <a href="Eggplant.html">Eggplant</a>
+                <a href="Cauliflower.html">Cauliflower</a>
+              </div>
+            </div>
+            
+            
+            
+    
+        </ul>
+      </div>
+    </div>	
+
+		<br><br>
+	<ul>
+		<li class="q">Question: Fruit and vegetables take too long to prepare. How
+do I find time to add them to my meals?”
+</li>
+		<li class="a">A healthy meal featuring fruit and vegetables can be
+prepared in less than 30 minutes.
+ </li>
+		<li class="q">Question: What is a serve?</li>
+		<li class="a">One serve of VEGETABLES is 75 grams or (Refer News Letter 1 for pictures)  </li>
+		<li class="q">Question: Aren’t fruit and vegetables expensive?</li>
+		<li class="a">This is a common belief but in fact you can save money when you buy more fruit and vegetables, instead of packaged and ready-to-eat meals and snacks. Compare the cost of fresh fruit with that of fruit snacks per kilogram.</li>
+		<li class="q">Question: What about tinned and frozen fruit and vegetables? Are they as nutritious as fresh?”</li>
+		<li class="a">The good news is that tinned and frozen fruit and vegetables are just as nutritious as fresh ones, but make sure you look out for the following at the
+supermarket:<br><br>
+<ul>
+<li><b>Tinned fruit</b> – tinned in natural juice, not syrup; e.g. tinned peaches, apricots, pears, mango </li>
+<li><b>Tinned vegetables</b> – ‘salt-reduced’ or ‘no added salt’; e.g. tinned corn, peas, tomatoes, asparagus </li>
+<li><b>Frozen fruit</b> – e.g. frozen mixed berries</li>
+<li><b>Frozen vegetables</b> – without sauces e.g. frozen mixed vegetables, corn, spinach, beans, peas </li>
+<li><b>Tinned legumes</b> – without added salt e.g. chickpeas, butter beans, baked beans </li>
+ </ul>
+ </li>
+		<li class="q">Question: What are some simple ways I can add more fruit and vegetables into meals and snacks I prepare?”</li>
+		<li class="a">Start with simple recipes with lots of fruit and/or vegetables like the ones in these newsletters! </li>
+		<li class="q">Question: My family don’t like fruit and vegetables. What can I do?</li>
+		<li class="a">Include your family in the meal planning process:
+		<ul>
+<li>• If you take your children shopping with you, explain to them what you are doing and get them involved in finding the fruit or vegetables that you need.</li>
+<li>• Make healthier versions of convenience or fast foods at home (home-made pizza can be packed full of vegetables)!</li>
+<li>• Make sure each person gets their favourite healthy choice at least once a week.</li>
+<li>• Try to introduce children to new foods as often as possible.</li>
+</ul>
+ </li>
+		<li class="q">Question: I don’t like the taste of fruit and vegetables, What can I do?”</li>
+		<li class="a">There are many different types of fruit and vegetables – they don’t all taste the same!
+Try new ones – there may be some that you like better than others, but it’s usually just a matter
+of getting used to the taste.
+ </li>
+		<li class="q">Question: I’m having guests over for dinner. What can I make that will include fruit and vegetables?”</li>
+		<li class="a">Entertaining family and friends is an important and enjoyable part of life. Encourage others
+to eat a variety of fruit and vegetables at your next social occasion. All it takes is planning,
+enthusiasm and a few ideas (and it can all be done on a budget).
+		<li class="q">Question: How do I stay motivated when I’m getting bored cooking with vegetables?”</li>
+		<li class="a">Here are a few suggestions of what vegetables work well together and how you can cook them: <br>
+		
+
+
+<ul>
+
+<li><b>Roasting</b>- Pumpkin, Potatoes, Sweet potato, Red onion.</li>
+
+<li><b>Stir-fries</b> - Asian greens (eg. Bok choy), Broccoli, Snow peas, Baby corn, Red capsicum, Green beans, Carrots, Cauliflower.</li>
+
+<li><b>Casseroles/pasta sauces Carrots</b> - Mushrooms, Celery, Zucchini, Leeks, Tomatoes, Parsnips, Onion.</li>
+
+<li><b>In sandwiches, wraps and burgers</b> -Green salad leaves (eg. Rocket, Cos lettuce), Beetroot, Avocado, Capsicum, Red onion, Tomato, Mushrooms, Carrot.</li>
+
+<li><b>Grilling/BBQ Eggplant</b> -Zucchini, Onions, Asparagus, Mushrooms, capsicum, squash.</li>
+</ul>
+ </li>
+</li>
+	</ul>
+</div>
+</body>
+</html>
